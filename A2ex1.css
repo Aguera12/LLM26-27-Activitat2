@@ -1,0 +1,48 @@
+/* Estilo general de la página */
+body {
+    font-family: serif;
+    font-size: 1.2em;
+    background-color: #fddaef;
+}
+
+/* Párrafos */
+p {
+    line-height: 125%;
+}
+
+/* Título de primer nivel */
+h1 {
+    color: blue;
+    font-family: Arial;
+}
+
+/* Títulos de segundo nivel en adelante */
+h2, h3, h4, h5, h6 {
+    color: #cc22ff;
+    font-family: Arial;
+}
+
+/* Código Python */
+pre {
+    border: 1px solid black;
+}
+
+/* Párrafo especial */
+#especial::first-letter {
+    font-weight: bold;
+    font-size: 300%;
+}
+
+/* Clase principal */
+.principal {
+    text-align: justify;
+    margin: 15px;
+    padding: 5px;
+}
+
+/* Clase secundaria */
+.secondari {
+    font-style: italic;
+    margin: 10px;
+    padding: 5px;
+}
